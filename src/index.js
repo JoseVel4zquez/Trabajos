@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
+import Nosotros from  './components/Nosotros'
 
-import Navbar from './components/Navbar'
+
 
 const  container = document.getElementById('root')
 
-ReactDom.render(<Navbar />, container)
+ReactDom.render(<Nosotros />, container)
