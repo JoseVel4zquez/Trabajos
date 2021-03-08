@@ -29,7 +29,7 @@ export default function Navbar(){
                     </div>
 
                 </nav>
-                <div class="textos">
+                <div className="textos">
                     <h1>Trabajos en general</h1>
                     <h2>Las mejores instalaciones </h2>
                 </div>
