@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDom from 'react-dom'
+import Home from './components/Home'
 
-import Nosotros from  './components/Nosotros'
 
 
 
 const  container = document.getElementById('root')
 
-ReactDom.render(<Nosotros />, container)
+ReactDom.render(<Home />, container)

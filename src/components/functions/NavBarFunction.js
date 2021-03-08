@@ -1,3 +1,4 @@
+
 window.onload= function () {
     const boton = document.getElementById('icono')
 const enlaces = document.getElementById('enlaces')
@@ -33,5 +34,6 @@ window.addEventListener('resize', function(){
   
 })
 }
+
 
 

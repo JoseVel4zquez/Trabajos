@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import  './functions/NavBarFunction.js'
 import './css/Navbar.css'
 import Logo from '../images/logo.png'
+import Nosotros from './Nosotros'
 
 
 export default function Navbar(){
@@ -33,6 +34,8 @@ export default function Navbar(){
                     <h2>Las mejores instalaciones </h2>
                 </div>
             </header>
+            
+            
         )
     
 }
