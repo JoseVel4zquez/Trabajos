@@ -18,7 +18,7 @@ export default function Footer(){
                 <p>8296312</p>
             </div>
         </div>
-        <h2 className="titulo-final">&copy; Ks-TECH</h2>
+        <h2 className="titulo-final">&copy; KS-TECH</h2>
     </footer>
     )
 }

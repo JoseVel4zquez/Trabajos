@@ -7,7 +7,7 @@ export default function Nosotros(){
     return(
         <main>
             <section className="contenedor sobre-nosotros">
-                <h2 className="titulo">Nuestro producto</h2>
+                <h2 className="titulo">Nosotros</h2>
                 <div className="contenedor-sobre-nosotros">
                     <img src={trabajadores} alt="" className="imagen-about-us"/>
                     <div className="contenido-textos">
