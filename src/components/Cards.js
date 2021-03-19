@@ -6,7 +6,7 @@ import "../components/css/home.css";
 const cards = [
   {
     id: 1,
-    title: "Trabajos en general",
+    title: "Trabajos",
     image: house,
     url: "https://kstech.club",
     //text: 'Esto es una prueba chida xd'
@@ -46,7 +46,7 @@ const cards = [
 function Cards() {
   return (
     <div className="container-fluid d-flex justify-content-center align-items-center Home">
-      <div className="row mt-5 w-50">
+      <div className="row row-cols-2 row-cols-sm-2  row-cols-md-4">
         {cards.map((card) => (
           <div className="mt-5 mb-5 col-md-4" key={card.id}>
             <Card
