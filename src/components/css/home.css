@@ -1,11 +1,11 @@
-.Home{
-    background: rgb(238, 69, 64);
-    height: 100vh;
-  
-    background: linear-gradient(
-      90deg,
-      rgba(5,5,9,1) 63%, 
-      rgba(65,80,64,1) 93%, 
-      rgba(16,53,85,1) 100%
-    );
-  }
+.Home {
+  background: rgb(238, 69, 64);
+  width: auto;
+  margin-bottom: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 5, 9, 1) 63%,
+    rgba(65, 80, 64, 1) 93%,
+    rgba(16, 53, 85, 1) 100%
+  );
+}
