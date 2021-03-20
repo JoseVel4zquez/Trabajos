@@ -1,10 +1,8 @@
-import React from 'react'
-import ReactDom from 'react-dom'
-import Home from './components/Home'
+import React from "react";
+import ReactDom from "react-dom";
 
+import Router from "./components/Router";
 
+const container = document.getElementById("root");
 
-
-const  container = document.getElementById('root')
-
-ReactDom.render(<Home />, container)
+ReactDom.render(<Router />, container);

@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+
 import house from "../images/house.jpg";
 import "../components/css/home.css";
 
