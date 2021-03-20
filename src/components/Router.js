@@ -7,7 +7,7 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Route exact path="/" component={Home} />
-      <Route exact path="/home" component={Home} />
+
       <Route exact path="/product" component={Productos} />
     </BrowserRouter>
   );

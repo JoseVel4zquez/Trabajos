@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./css/cards.css";
 
 function Card({ title, imageSrc, text, url }) {
@@ -15,13 +16,16 @@ function Card({ title, imageSrc, text, url }) {
             ? text
             : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor sollicitudin congue. Nullam ac justo elementum, fringilla magna ac, cursus orci. Vivamus rutrum tortor urna, et condimentum orci venenatis eu. Integer tortor mauris, ornare id dolor a, scelerisque aliquam leo."}
         </p>
-        <a
+        {/* <a
           href={url}
           className="btn btn-outline-secondary rounded-0"
           target="_blank"
         >
           Ve este website
-        </a>
+        </a> */}
+        <Link to="/product" className="btn btn-outline-secondary rounded-0">
+          Informacion del producto
+        </Link>
       </div>
     </div>
   );
