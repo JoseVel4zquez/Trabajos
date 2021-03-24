@@ -15,6 +15,7 @@ const cards = [
       "La línea de acondicionadores de aire tipo minisplit que  está diseñada para hogares y negocios donde el ahorro de energía es un factor determinante.",
     url: "https://kstech.club",
     Link: "/product",
+    btn: "Ver Productos",
     //text: 'Esto es una prueba chida xd'
   },
   {
@@ -25,6 +26,7 @@ const cards = [
       "La línea de acondicionadores de aire tipo minisplit que  está diseñada para hogares y negocios donde el ahorro de energía es un factor determinante.",
     url: "https://kstech.club",
     Link: "/galeria",
+    btn: "Ver Galeria",
     //text: 'Esto es una prueba chida xd'
   },
   {
@@ -35,6 +37,7 @@ const cards = [
       "La línea de acondicionadores de aire tipo minisplit que  está diseñada para hogares y negocios donde el ahorro de energía es un factor determinante.",
     url: "https://kstech.club",
     Link: "/galeria",
+    btn: "Ver Galeria",
     //text: 'Esto es una prueba chida xd'
   },
 ];
@@ -44,13 +47,17 @@ function Cards() {
     <div className="container-fluid d-flex justify-content-center align-items-center Home">
       <div className="row row-cols-2 row-cols-sm-2  row-cols-md-4">
         {cards.map((card) => (
-          <div className="mt-5 mb-5 col-md-4 initial-scale=1 shrink-to-fit=no" key={card.id}>
+          <div
+            className="mt-5 mb-5 col-md-4 initial-scale=1 shrink-to-fit=no"
+            key={card.id}
+          >
             <Card
               title={card.title}
               imageSrc={card.image}
               url={card.url}
               text={card.text}
               link={card.Link}
+              btn={card.btn}
             />
           </div>
         ))}
