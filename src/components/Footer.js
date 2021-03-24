@@ -10,7 +10,7 @@ export default function Footer(){
         <footer>
         <div className="contenedor-footer">
             <div className="content-foo">
-                <h4>Phone</h4>
+                <h4>Telefono</h4>
                 <p><FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> 7445.501.2467</p>
             </div>
             <div className="content-foo">
@@ -18,7 +18,7 @@ export default function Footer(){
                 <p><FontAwesomeIcon icon={faMailBulk}></FontAwesomeIcon> example@example.com</p>
             </div>
             <div className="content-foo">
-                <h4>Location</h4>
+                <h4>Direccion</h4>
                 <p><FontAwesomeIcon icon={faLocationArrow}></FontAwesomeIcon> Ubicados en <br/>Acapulco col centro</p>
             </div>
         </div>

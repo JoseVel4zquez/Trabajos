@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./functions/NavBarFunction.js";
 import "./css/Navbar.css";
 import Logo from "../images/logo.png";
-import Nosotros from "./Nosotros";
 
 export default function Navbar() {
   return (
@@ -20,13 +19,11 @@ export default function Navbar() {
           </span>
         </div>
         <div className="enlaces uno" id="enlaces">
-          <Router>
             <Link to="/" className="active">
               Home
             </Link>
-            <Link to="/">Acerca de</Link>
-            <Link to="/">Contacto</Link>
-          </Router>
+            <Link to="/galeria">Galeria</Link>
+          <Link to="/product">Productos</Link>
         </div>
       </nav>
       <div className="textos">
