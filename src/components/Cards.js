@@ -4,7 +4,6 @@ import Card from "./Card";
 import house from "../images/house.jpg";
 import door from "../images/door.jpg";
 import "../components/css/home.css";
-import { Link } from "react-router-dom";
 
 const cards = [
   {
